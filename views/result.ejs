@@ -1,0 +1,12 @@
+
+<style>
+    li{
+        list-style: none;
+    }
+</style>    
+<h1>result</h1>
+<% result["Search"].forEach(function(movie){ %>
+    <li> <%= movie.Title %> </li>
+<% }); %>
+<br>
+<%- include('search.ejs') %>
