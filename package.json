@@ -1,6 +1,6 @@
 {
   "name": "movies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "it is a small app to search movies",
   "main": "app.js",
   "scripts": {
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "locus": "^2.0.4",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "standard-version": "^9.0.0"
   }
 }
