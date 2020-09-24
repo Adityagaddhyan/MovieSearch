@@ -1,0 +1,27 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "it is a small app to search movies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	     "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityagaddhyan/MovieSearch.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Aditya Gaddhyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityagaddhyan/MovieSearch/issues"
+  },
+  "homepage": "https://github.com/Adityagaddhyan/MovieSearch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
